@@ -1,6 +1,6 @@
 puts "Enter a string"
 str = gets.chop
-str.downcase
+str=str.downcase
 vol = 0
 
 for i in 0...str.length
